@@ -1,0 +1,391 @@
+importar {watchFile, unwatchFile} desde 'fs'
+importar tiza de 'tiza'
+importar {fileURLToPath} desde 'url'
+importar fs desde 'fs'
+importar cheerio desde 'cheerio'
+importar buscar desde 'node-fetch'
+importar axios desde 'axios'
+importar momento desde 'momento-zona horaria'
+importar {en, es, id, ar, pt} desde './lib/idiomas/total-idiomas.js'
+
+//âŠ± â” â” â” â” â” .â‹… Añada los números a ser Propietario/a â‹….â” â” â” â” âŠ°
+
+propietario.global = [
+['591360720', 'ð ™‡ð ™¤ð ™¡ð ™žð ˜½ð ™¤ð ™©-ð ™ˆð ˜¿', verdadero],
+['59163956473', 'ð ™‡ð ™¤ð ™¡ð ™žð ˜½ð ™¤ð ™©-ð ™ˆð ˜¿', verdadero']
+
+global.mods = ['59163956473']
+global.prems = ['59171360720'],
+  
+//âŠ± â” â” â” â” â” .â‹… IDIOMA : LENGUAJE â‹….â” â” â” â” âŠ°
+//Agrega el Idioma que quieres que tenga The-LoliBot-MD
+// es = Español id = Bahasa Indonesia
+// en = English pt = Português
+// ar = Ø¹Ø±Ø¨
+
+global.lenguajeGB = es //Idioma de The-LoliBot-MD, Ejemplo: es | es | punto...
+
+//â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” à¸…^â€¢ï »Œâ€¢^à¸…
+
+global.openai_key = 'sk-...OzYy' /* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
+global.openai_org_id = 'HITjoN7H8pCwoncEB9e3fSyW' /* Obtén tu ID de organización en este enlace: https://platform.openai.com/account/org-settings */
+global.Key360 = ['964f-0c75-7afc']//clave de violetas
+global.keysZens = ['LuOlangNgentot', 'c2459db922', '37CC845916', '6fb0eff124', 'hdiiofficial', 'fiktod', 'BF39D349845E', '675e34de8a', '0b917b905e6f']
+global.keysxxx = clavesZens[Math.floor(keysZens.length * Math.random())]
+global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
+global.keysxteam = teclasxteammm[Math.floor(keysxteammm.length * Math.random())]
+global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
+global.keysneoxr = teclasneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
+global.lolkeysapi = 'GataDios'
+global.itsrose = ['4b146102c4d500809da9d1ff']
+global.baileys = '@whiskysockets/baileys'
+
+API globales = {
+  xteam: 'https://api.xteam.xyz',
+  dzx: 'https://api.dhamzxploit.my.id',
+  jajaja: 'https://api.lolhuman.xyz',
+  violetas: 'https://violetics.pw',
+  neoxr: 'https://api.neoxr.my.id',
+  zenzapis: 'https://api.zahwazein.xyz',
+  akuari: 'https://api.akuari.my.id',
+  akuari2: 'https://apimu.mi.id',	
+  fgmods: 'https://api-fgmods.ddns.net',
+  botcahx: 'https://api.botcahx.biz.id',
+  ibeng: 'https://api.ibeng.tech/docs',	
+  rosa: 'https://api.itsrose.site',
+  popcat: 'https://api.popcat.xyz',
+  xcoders: 'https://api-xcoders.site'
+},
+global.APIKeys = {
+  'https://api.xteam.xyz': `${keysxteam}`,
+  'https://api.lolhuman.xyz': `${lolkeysapi}`,
+  'https://api.neoxr.my.id': `${keysneoxr}`,	
+  'https://violetics.pw': 'beta',
+  'https://api.zahwazein.xyz': `${keysxxx}`,
+  'https://api-fgmods.ddns.net': 'fg-dylux',
+  'https://api.botcahx.biz.id': 'Administrador',
+  'https://api.ibeng.tech/docs': 'tamvan',
+  'https://api.itsrose.site': 'Rs-Zeltoria',
+  'https://api-xcoders.site': 'Amigos'
+}
+
+global.imagen1 = fs.readFileSync('./Menu2.jpg')
+global.imagen2 = fs.readFileSync('./src/nuevobot.jpg')
+global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
+
+global.mods = []
+global.cheerio = animar
+global.fs = fs
+global.fetch = buscar
+global.axios = axios
+global.momento = momento	
+
+//âŠ± â” â” â” â” â” .â‹… Pegatina WM â‹….â” â” â” â” âŠ°
+
+global.packname = 'ð ™ ð ™¤ð ™¢ð ™– ð ™©ð ™ª ð ™¨ð ™©ð ™žð ™˜ð ™ ð ™šð ™§'
+global.author = 'ð ™‡ð ™¤ð ™¡ð ™žð ˜½ð ™¤ð ™©-ð ™ˆð ˜¿'
+
+//âŠ± â” â” â” â” â” .â‹… Versión | Nombre | cuentas â‹….â” â” â” â” âŠ°
+
+global.vs = '1.5.0'
+global.lb = 'ð ™ ð ™ ð ™š ð ™‡ð ™¤ð ™¡ð ™žð ˜½ð ™¤ð ™©-ð ™ˆð ˜¿'
+global.yt = 'https://www.youtube.com/@TheLoliBot-MD'
+global.ig = 'https://www.tiktok.com/@thelolibot_md'
+global.md = 'https://github.com/elrebelde21/The-LoliBot-MD'
+global.fb = 'https://www.facebook.com/groups/872989990425789/'
+
+global.nna = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A' //Actualización, información sobre el bot
+global.nn = 'https://chat.whatsapp.com/C6sxsP2ckrr2vxMKclOeCD' //Grupo 1
+global.nnn = 'https://chat.whatsapp.com/H4hxytyGvucIF1k0UAR7es' //Grupo 2
+global.nnnt = 'https://chat.whatsapp.com/IlyJBy1fxcw2qAHLSC5YLa' //Grupo del Colaboración
+global.nnnt2 = 'https://chat.whatsapp.com/K7RzcVdxGqhGP5dCpVENSI' // Grupo COL 2
+global.nnntt='https://chat.whatsapp.com/IB9Vs7mZ03BBkH3reCU8Dw' //Grupo COL 3
+global.nnnttt = 'https://chat.whatsapp.com/KlqNmoUcVnsGJxIfATIDrK' //enlace lolibot
+global.nnntttt = 'https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs' //Grupo ayuda sobre el bot
+global.asistencia = 'Wa.me/5492266466080' //¿Dudas? escríbeme...
+
+//âŠ± â” â” â” â” â” â” â” â” â” â” â” â” â” .â‹… Datos â‹….â” â” â” â” â” â ” â” â” â” â” â” â” â” â” âŠ°
+
+global.rg = 'â•°âŠ±âœ… *ð ™ ð ™€ð ™Žð ™ ð ™‡ð ™ ð ˜¼ð ˜¿ð ™Šð ™Ž* âŠ±âœ…âŠ±â•®\n\ norte'
+global.resultado = rg
+global.ag = 'â•°âŠ±âš ï¸ âŠ± *ð ˜¼ð ˜¿ð ™'ð ™€ð ™ ð ™ ð ™€ð ™‰ð ˜¾ð ™„ð ˜¼* âŠ±âš ï ¸ âŠ±â•®\n\n'
+global.advertencia = ag
+global.iig = 'â•°âŠ±â •âŠ± *ð ™"ð ™‰ð ™ ð ™Šð ™ ð ™ˆð ˜¼ð ˜¾ð ™"ð ™Šð ™‰ * âŠ±âŠ±â•®\ n\n'
+global.informacion = iig
+global.fg = 'â•°âŠ±â ŒâŠ± *ð ™€ð ™ ð ™ ð ™Šð ™ * âŠ±â ŒâŠ±â•®\n\n'
+global.fallo = fg
+global.mg = 'â•°âŠ±â —ï¸ âŠ± *ð ™‡ð ™Š ð ™ ð ™Žð ™Š ð ™ˆð ˜¼ð ™‡* âŠ±â —ï¸ âŠ±â•®\ n\n'
+global.mal = mg
+global.eeg = 'â•°âŠ±ðŸ“©âŠ± *ð ™ ð ™€ð ™‹ð ™Šð ™ ð ™ ð ™€* âŠ±ðŸ“©âŠ±â•®\n\n'
+global.envio = eeg
+global.eg = 'â•°âŠ±ðŸ'šâŠ± *ð ™€ð ™“ð ™„ð ™ ð ™Šð ™Ž* âŠ±ðŸ'šâŠ±â•®\n\n'
+global.exito = por ejemplo
+
+//âŠ± â” â” â” â” â” .â‹… Información â‹….â” â” â” â” âŠ°
+
+global.wm = 'ð '»ð '‰ð '† ð '³ð ' ð ' ð 'Šð '©ð ' ð '•-ð '´ð '«'
+global.igfg = 'ð '»ð '‰ð '† ð '³ð ' ð ' ð 'Šð '©ð ' ð '•-ð '´ð '«'
+global.wait = '*âŒ› _Cargando..._ â–¬â–â–â–â–â–â–*'
+global.waitt = '*âŒ› _Cargando..._ â–¬â–¬â–â–â–*'
+global.waittt = '*âŒ› _Cargando..._ â–¬â–¬â–¬â–¬â–â–*'
+global.waitttt = '*âŒ› _Cargando..._ â–¬â–¬â–¬â–¬â–¬â–¬â–*'
+global.nomorown = '5492266466080'
+global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/ vnd.ms-excel', 'aplicación/msword', 'aplicación/pdf', 'texto/rtf']
+
+//âŠ± â” â” â” â” â” .â‹… IMG â‹….â” â” â” â” âŠ°
+
+global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
+global.imagen2 = fs.readFileSync('./media/menus/img1.jpg')
+global.imagen3 = fs.readFileSync('./media/menus/img2.jpg')
+global.imagen4 = fs.readFileSync('./media/menus/img3.jpg')
+
+//â” â” â” â” â” â” â” â” â” â” â” â” â” â” img â” â” â” â” â” â” â” â” â”
+
+global.img = 'https://i.imgur.com/H6AofpJl.jpg'
+global.img2 = 'https://i.imgur.com/R1uVUId.jpeg'
+global.img3 = 'https://i.imgur.com/Q5m8R11.jpeg' //prem
+global.img4 = 'https://i.imgur.com/sJ3HUTb.jpeg' //prem
+global.img5 = 'https://i.imgur.com/gb8HwKN.jpeg'
+global.img6 = 'https://i.imgur.com/qevNnBU.jpeg'
+global.img7 = 'https://i.imgur.com/c1xXpPX.jpeg'
+global.img8 = 'https://i.imgur.com/5cofHE5.jpeg'
+global.img9 = 'https://i.imgur.com/qevNnBU.jpeg'
+global.img10 = 'https://i.imgur.com/R1uVUId.jpeg'
+global.img11 = 'https://i.imgur.com/Q5m8R11.jpeg'
+global.img12 = 'https://i.imgur.com/gb8HwKN.jpeg'
+global.img13 = 'https://i.imgur.com/qevNnBU.jpeg'
+global.img14 = 'https://i.imgur.com/c1xXpPX.jpeg'
+global.img15 = 'https://i.imgur.com/5cofHE5.jpeg'
+global.img16 = 'https://i.imgur.com/11MRjo4.jpeg' //+18
+global.img17 = 'https://i.imgur.com/JpYfcH0.jpeg'
+global.redesMenu = [nna, nn, nnn, nnnt, nnntt, nnnttt, nnntttt, md, ig, lb, fb, yt]
+global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img16]
+global.gataVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
+global.gataImg = [imagen1, imagen2, imagen3]
+
+//âŠ± â” â” â” â” â” .â‹… RPG â‹….â” â” â” â” âŠ°
+
+global.flaaa = [
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=¡Advertencia!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor 3Color=%23f2aa4c&fillColor4Color= %23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color= %23f2aa4c&backgroundColor=%23101820&text=']
+
+global.cmenut = 'â –â€“â€“â€“â€“â€“â€“ã€Ž'
+global.cmenub = 'â”Šâœ¦ '
+global.cmenuf = 'â•°â” â• â”…â• â” â€“-€“-€“-â€“-à¹'\n'
+global.cmenua = '\nâŒ• â ™â ˜â ™â ™â ˜â ™â šâ ™â ˜â ™â ™â šâ ™â ˜â ™â ˜â ™â šâ ™â ˜â ™â ™â šâ ™â ˜â ™â ™â ˜â ™â šâ ™â ˜ âŒ•\n '
+global.dmenut = '*â –â”€â”…â”€â”€â”…âŒ©*'
+global.dmenub = '*â”ŠÂ»*'
+global.dmenub2 = '*â”Š*'
+global.dmenuf = '*â•°â”…â”€â”€â”€â”€â”€â”€â”€â”€â”…âœ¦*'
+global.htjava = 'â«¹â«º'
+global.htki = '*â'â€¢Ì©Ì©Í™âŠ±â€¢â€¢â€¢â€¢ â˜ª*'
+global.htka = '*â˜ª â€¢â€¢â€¢â€¢Ì©Ì©Í™âŠ°â€¢â'*'
+global.comienzo = 'â€¢ â€¢ â—•â—•â• â• â• â• '
+global.fin = 'â• â• â• â• â—•â—• â€¢ â€¢'
+global.botdate = `â«¹â«º Fecha: ${moment.tz('America/Los_Angeles').format('DD/MM/AA')}` //Asia/Yakarta
+global.bottime = `ð —§ ð —œ ð — ð —˜ : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`//America/Los_Angeles
+global.fgif = {
+llave: {
+participante: '0@s.whatsapp.net'},
+mensaje: {
+"mensaje de video": {
+"título": wm,
+"h": `Mmmm`,
+'segundos': '999999999',
+'gifReproducción': 'verdadero',
+'título': hora del bot,
+'jpegThumbnail': fs.readFileSync('./media/menus/Menu3.jpg')
+}}}
+
+//â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” â” à¸…^â€¢ï»Œâ€¢^à¸…
+
+global.multiplier = 90 // Cuanto más alto, más difícil subir de nivel
+global.rpg = {
+emoticono (cadena) {
+cadena = cadena.toLowerCase()
+dejar emocionar = {
+nivel: 'ðŸ§¬ Nivel',
+límite: lenguajeGB.eDiamante(),
+exp: lenguajeGB.eExp(),
+banco: 'ðŸ ¦ Banco',
+diamante: lenguajeGB.eDiamantePlus(),
+salud: 'â ¤ï¸ Salud',
+kyubi: lenguajeGB.eMagia(),
+joincount: lenguajeGB.eToken(),
+esmeralda: lenguajeGB.eEsmeralda(),
+resistencia: lenguajeGB.eEnergia(),
+papel: 'ðŸ'ª Rango',
+prima: 'ðŸŽŸï¸ Premium',
+pointxp: 'ðŸ“§ Puntos Exp',
+oro: lenguajeGB.eOro(),
+basura: lenguajeGB.eBasura(),
+cristal: 'ðŸ”® Cristal : Cristal',
+inteligencia: 'ðŸ§ Inteligencia ',
+cadena: lenguajeGB.eCuerda(),
+keygold: 'ðŸ”' Llave de Oro',
+keyiron: 'ðŸ— ï¸ Llave de Hierro',
+emas: lenguajeGB.ePinata(),
+caña de pescar: 'ðŸŽ£ Caña de Pescar',
+gemas: 'ðŸ € Gemas',
+varita mágica: 'âš•ï¸ Varita Mágica',
+maná: 'ðŸª" Hechizo',
+agilidad: 'ðŸ¤¸â€ â™‚ï¸ Agilidad',
+darkcrystal: 'â™ ï¸ Cristal Oscuro : Vidrio Oscuro',
+hierro: lenguajeGB.eHierro(),
+roca: lenguajeGB.eRoca(),
+poción: lenguajeGB.ePocion(),
+superior: 'ðŸ'¼ Superior',
+robo: 'ðŸš” Robo',
+actualizador: 'ðŸ§° Aumentar Mejora',
+madera: lenguajeGB.eMadera(),
+fuerza: 'ðŸ¦¹â€ â™€ï¸ Fuerza',
+arco: 'ðŸ ¹ Arco : Arco',
+armadura: 'ðŸ¥¼ Armadura : Armadura',
+arco: 'ðŸ ¹ Super Arco: Super Arco',
+pico: 'â› ï¸ Pico',
+espada: lenguajeGB.eEspada(),
+común: lenguajeGB.eCComun(),
+poco común: lenguajeGB.ePComun(),
+mítico: lenguajeGB.eCMistica(),
+legendario: lenguajeGB.eClegendaria(),
+petFood: lenguajeGB.eAMascots(), //?
+mascota: lenguajeGB.eCMascota(),//?
+bibitanggur: lenguajeGB.eSUva(), bibitapel: lenguajeGB.eSManzana(), bibitjeruk: lenguajeGB.eSNaranja(), bibitmangga: lenguajeGB.eSMango(), bibitpisang: lenguajeGB.eSPlatano(),
+ayam: 'ðŸ “Pollo',
+babi: 'ðŸ – Puerco',
+Jabali: 'ðŸ — Jabali',
+toro: 'ðŸ ƒ Toro : Toro',    
+buaya: 'ðŸ Š Cocodrilo: Caimán',    
+gato: lenguajeGB.eGato(),    
+centauro: lenguajeGB.eCentauro(),
+pollo: 'ðŸ “ Pollo : Pollo',
+vaca: 'ðŸ „ Vaca : Vaca',
+perro: lenguajeGB.ePerro(),
+dragón: lenguajeGB.eDragon(),
+elefante: 'ðŸ ˜ Elefante : Elefante',
+zorro: lenguajeGB.eZorro(),
+jirafa: 'ðŸ¦' Jirafa : Jirafa',
+grifo: lenguajeGB.eAve(), //Mascota: Grifo',
+caballo: lenguajeGB.eCaballo(),
+kambing: 'ðŸ Cabra: Cabra',
+kerbau: 'ðŸ ƒ Búfalo : Buffalo',
+león: 'ðŸ¦ León : León',
+dinero: lenguajeGB.eGataCoins(),
+moneyet: 'ðŸ ' Mono : Mono',
+panda: 'ðŸ ¼ Panda',
+serpiente: 'ðŸ Serpiente : Serpiente',
+phonix: 'ðŸ•Šï¸ Fénix : Phoenix',
+rinoceronte: 'ðŸ¦ Rinoceronte : Rinoceronte',
+lobo: lenguajeGB.eLobo(),
+tigre: 'ðŸ... Tigre: Tigre',
+cumi: 'ðŸ¦' Calamar : Calamar',
+udang: 'ðŸ¦ Camarón: Camarón',
+ikan: 'ðŸ Ÿ Pez: Pescado',
+fideos: 'ðŸ Fideos: Fideos',
+ramuan: 'ðŸ§ª Ingrediente NOVA : Ingredientes',
+cuchillo: 'ðŸ”ª Cuchillo : Cuchillo'
+}
+let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+si (!resultados.longitud) regresa ''
+de lo contrario, devuelve emot[resultados[0][0]]
+}}
+
+global.rpgg = { //Solo emojis
+emoticono (cadena) {
+cadena = cadena.toLowerCase()
+dejar emot = {
+nivel: 'ðŸ§¬', límite: 'ðŸ'Ž', exp: 'âš¡', banco: 'ðŸ ¦',
+diamante: 'ðŸ'Ž+', salud: 'â ¤ï¸ ', kyubi: 'ðŸŒ€', joincount: 'ðŸª™',
+esmeralda: 'ðŸ'š', resistencia: 'âœ¨', rol: 'ðŸ'ª', prima: 'ðŸŽŸï¸ ',
+pointxp: 'ðŸ“§', oro: 'ðŸ''',
+basura: 'ðŸ—'', cristal: 'ðŸ”®', inteligencia: 'ðŸ§ ', cadena: 'ðŸ•¸ï¸ ', keygold: 'ðŸ”'',
+hierro clave: 'ðŸ— ï¸ ', emas: 'ðŸª…', caña de pescar: 'ðŸŽ£', gemas: 'ðŸ €', varita mágica: 'âš•ï¸ ',
+maná: 'ðŸª''', agilidad: 'ðŸ¤¸â€ â™‚ï¸ ', cristal oscuro: 'â™ ï¸ ', hierro: 'â›“ï¸ ', roca: 'ðŸª¨',
+poción: 'ðŸ¥¤', superior: 'ðŸ'¼', robo: 'ðŸš”', mejorador: 'ðŸ§°', madera: 'ðŸªµ',
+fuerza: 'ðŸ¦¹â€ â™€ï¸ ', arco: 'ðŸ ¹', armadura: 'ðŸ¥¼', arco: 'ðŸ ¹', pico: 'â› ï¸ ', espada: 'âš” i ',
+común: 'ðŸ“¦', poco común: 'ðŸ¥¡', mítico: 'ðŸ—³ï¸ ', legendario: 'ðŸŽ ', petFood: 'ðŸ –', mascota: 'ðŸ ±',
+bibitanggur: 'ðŸ ‡', bibitapel: 'ðŸ Ž', bibitjeruk: 'ðŸ Š', bibitmangga: 'ðŸ¥', bibitpisang: 'ðŸ Œ',
+ayam: 'ðŸ “', babi: 'ðŸ –', Jabali: 'ðŸ —', toro: 'ðŸ ƒ', buaya: 'ðŸ Š', gato: 'ðŸ ˆ',      
+centauro: 'ðŸ ', pollo: 'ðŸ “', vaca: 'ðŸ „', perro: 'ðŸ •', dragón: 'ðŸ ‰', elefante: 'ðŸ ˜',
+zorro: 'ðŸ¦Š', jirafa: 'ðŸ¦'', grifo: 'ðŸ¦…', //Mascota: Griffin',
+caballo: 'ðŸ Ž', kambing: 'ðŸ ', kerbau: 'ðŸ ƒ', león: 'ðŸ¦ ', dinero: 'ðŸ ±', monyet: 'ðŸ '', panda: 'ðŸ ¼',
+serpiente: 'ðŸ ', phonix: 'ðŸ•Šï¸ ', rinoceronte: 'ðŸ¦ ',
+lobo: 'ðŸ º', tigre: 'ðŸ …', cumi: 'ðŸ¦'', udang: 'ðŸ¦ ', ikan: 'ðŸ Ÿ',
+fideos: 'ðŸ ', ramuan: 'ðŸ§ª', cuchillo: 'ðŸ”ª'
+}
+let results = Object.keys(emott).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+si (!resultados.longitud) regresa ''
+de lo contrario, devuelve emott[resultados[0][0]]
+}}
+
+global.rpgshop = { //Tienda
+emoticono (cadena) {
+cadena = cadena.toLowerCase()
+let emottt = {
+exp: lenguajeGB.eExp(), límite: lenguajeGB.eDiamante(), diamante: lenguajeGB.eDiamantePlus(), joincount: lenguajeGB.eToken(),
+esmeralda: lenguajeGB.eEsmeralda(), berlian: lenguajeGB.eJoya(), kyubi: lenguajeGB.eMagia(), oro: lenguajeGB.eOro(),
+dinero: lenguajeGB.eGataCoins(), tiketcoin: lenguajeGB.eGataTickers(), resistencia: lenguajeGB.eEnergia(),
+poción: lenguajeGB.ePocion(), aqua: lenguajeGB.eAgua(), basura: lenguajeGB.eBasura(), madera: lenguajeGB.eMadera(),
+roca: lenguajeGB.eRoca(), batu: lenguajeGB.ePiedra(), string: lenguajeGB.eCuerda(), hierro: lenguajeGB.eHierro(),
+carbón: lenguajeGB.eCarbon(), botol: lenguajeGB.eBotella(), kaleng: lenguajeGB.eLata(), kardus: lenguajeGB.eCarton(),
+eleksirb: lenguajeGB.eEletric(), emasbatang: lenguajeGB.eBarraOro(), emasbiasa: lenguajeGB.eOroComun(), rubah: lenguajeGB.eZorroG(),
+sampah: lenguajeGB.eBasuraG(), serigala: lenguajeGB.eLoboG(), kayu: lenguajeGB.eMaderaG(), espada: lenguajeGB.eEspada(),
+umpan: lenguajeGB.eCarnada(), healtmonster: lenguajeGB.eBillete(), emas: lenguajeGB.ePinata(), pancingan: lenguajeGB.eGancho(),
+pancing: lenguajeGB.eCanaPescar(),
+común: lenguajeGB.eCComun(), poco común: lenguajeGB.ePComun(), mítico: lenguajeGB.eCMistica(),
+mascota: lenguajeGB.eCMascota(),//?
+gardenboxs: lenguajeGB.eCJardineria(),//?
+legendario: lenguajeGB.eClegendaria(),
+anggur: lenguajeGB.eUva(), apel: lenguajeGB.eManzana(), jeruk: lenguajeGB.eNaranja(), mangga: lenguajeGB.eMango(), pisang: lenguajeGB.ePlatano(),
+bibitanggur: lenguajeGB.eSUva(), bibitapel: lenguajeGB.eSManzana(), bibitjeruk: lenguajeGB.eSNaranja(), bibitmangga: lenguajeGB.eSMango(), bibitpisang: lenguajeGB.eSPlatano(),
+centauro: lenguajeGB.eCentauro(), grifo: lenguajeGB.eAve(), kucing: lenguajeGB.eGato(), naga: lenguajeGB.eDragon(),
+fox: lenguajeGB.eZorro(), kuda: lenguajeGB.eCaballo(), phonix: lenguajeGB.eFenix(), wolf: lenguajeGB.eLobo(),
+anjing: lenguajeGB.ePerro(),
+petFood: lenguajeGB.eAMascots(), //?
+makanancentaur: lenguajeGB.eCCentauro(), makanangriffin: lenguajeGB.eCAve(),
+makanankyubi: lenguajeGB.eCMagica(), makanannaga: lenguajeGB.eCDragon(), makananpet: lenguajeGB.eACaballo(), makananphonix: lenguajeGB.eCFenix()
+}
+let results = Object.keys(emottt).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+si (!resultados.longitud) regresa ''
+de lo contrario, devuelve emottt[resultados[0][0]]
+}}
+
+global.rpgshopp = { //Tienda
+emoticono (cadena) {
+cadena = cadena.toLowerCase()
+let emtttt = {
+exp: 'âš¡', límite: 'ðŸ'Ž', diamante: 'ðŸ'Ž+', cuenta de unión: 'ðŸª™',
+esmeralda: 'ðŸ'š', berliana: 'â™¦ï¸ ', kyubi: 'ðŸŒ€', oro: 'ðŸ''',
+dinero: 'ðŸ ±', tiketcoin: 'ðŸŽ«', resistencia: 'âœ¨',
+poción: 'ðŸ¥¤', agua: 'ðŸ'§', basura: 'ðŸ—'', madera: 'ðŸªµ',
+roca: 'ðŸª¨', batu: 'ðŸ¥Œ', cadena: 'ðŸ•¸ï¸ ', hierro: 'â›“ï¸ ',
+carbón: 'âš±ï¸ ', botol: 'ðŸ ¶', kaleng: 'ðŸ¥«', kardus: 'ðŸª§',
+eleksirb: 'ðŸ'¡', emasbatang: 'ã€½ï¸ ', emasbiasa: 'ðŸ§', rubah: 'ðŸ¦ŠðŸŒ«ï¸ ',
+sampah: 'ðŸ—'ðŸŒ«ï¸ ', serigala: 'ðŸ ºðŸŒ«ï¸ ', kayu: 'ðŸ›·', espada: 'âš”ï¸ ',
+umpan: 'ðŸª±', healtmonster: 'ðŸ'µ', emas: 'ðŸª…', pancingan: 'ðŸª ',
+paseando: 'ðŸŽ£',
+común: 'ðŸ“¦', poco común: 'ðŸ¥¡', mítico: 'ðŸ—³ï¸ ',
+mascota: 'ðŸ“«',//?
+cajas de jardín: 'ðŸ' ',//?
+legendario: 'ðŸŽ ',
+anggur: 'ðŸ ‡', apel: 'ðŸ Ž', jeruk: 'ðŸ Š', mangga: 'ðŸ¥', pisang: 'ðŸ Œ',
+bibitanggur: 'ðŸŒ¾ðŸ ‡', bibitapel: 'ðŸŒ¾ðŸ Ž', bibitjeruk: 'ðŸŒ¾ðŸ Š', bibitmangga: 'ðŸŒ¾ðŸ¥', bibitpisang: 'ðŸŒ¾ðŸ Œ',
+centauro: 'ðŸ ', grifo: 'ðŸ¦…', kucing: 'ðŸ ˆ', naga: 'ðŸ ‰', zorro: 'ðŸ¦Š', kuda: 'ðŸ Ž', phonix: 'ðŸ•Šï¸ ', lobo: 'ðŸ º', anjing: 'ðŸ ¶',
+comida para mascotas: 'ðŸ –', //?
+makanancentaur: 'ðŸ ðŸ¥©', makanangriffin: 'ðŸ¦…ðŸ¥©', makanankyubi: 'ðŸŒ€ðŸ¥©', makanannaga: 'ðŸ ‰ðŸ¥©',
+makananpet: 'ðŸ ±ðŸ¥©', makananphonix: 'ðŸ•Šï¸ ðŸ¥©'  
+}
+let results = Object.keys(emotttt).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+si (!resultados.longitud) regresa ''
+de lo contrario, devuelve emotttt[resultados[0][0]]
+}}
+
+let archivo = fileURLToPath(import.meta.url)
+watchFile(archivo, () => {
+unwatchFile(archivo)
+console.log(chalk.redBright("Se actualiza 'config.js'"))
+importar(`${archivo}?actualización=${Fecha.now()}`)
+})
